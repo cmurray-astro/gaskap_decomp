@@ -1,9 +1,4 @@
-# @Author: riener
-# @Date:   2019-04-02T17:23:06+02:00
-# @Filename: prepare--grs.py
-# @Last modified by:   riener
-# @Last modified time: 2019-04-08T10:33:45+02:00
-
+# Modified by Claire Murray based on prepare--grs.py by Manuel Riener
 
 import os
 
