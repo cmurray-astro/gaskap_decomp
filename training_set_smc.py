@@ -17,9 +17,8 @@ training = GaussPyTrainingSet(config_file="gausspy+.ini")
 
 #  Path to the FITS cube.
 # training.path_to_file = os.path.join("..", "smc_beast", "SMC.askap+pks.K.fits")
-training.path_to_file = os.path.join(
-    "..", "Testing_SMC_Rotation", "data", "smc_HI_cube_askap.fits"
-)
+training.path_to_file = "smc_HI_cube_askap.fits"
+
 #  Directory to which all files produced by GaussPy+ will get saved.
 training.dirpath_gpy = "decomposition"
 #  Number of spectra included in the training set. We recommend to have at least 250 spectra for a good training set.
