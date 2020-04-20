@@ -1,9 +1,4 @@
-# @Author: riener
-# @Date:   2019-04-01T20:20:22+02:00
-# @Filename: training_set--grs.py
-# @Last modified by:   riener
-# @Last modified time: 2019-04-08T10:28:25+02:00
-
+# Modified by Claire Murray based on training_set--grs.py by Manuel Riener
 
 import os
 
