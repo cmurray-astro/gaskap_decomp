@@ -58,12 +58,12 @@ for i, slice in enumerate(slices):
 
 components = [
     "decomposition/gpy_maps/smc_HI_cube_askap_sub_" + str(i) + "_noise_map.fits"
-    for i in range(25)
+    for i in range(64)
 ]
 new_map, new_head = spectral_cube_functions.combine_fields(
     components,
-    ncols=5,
-    nrows=5,
+    ncols=8,
+    nrows=8,
     path_to_output_file="decomposition/gpy_maps/smc_HI_cube_askap_noise_map.fits",
     save=True,
 )
