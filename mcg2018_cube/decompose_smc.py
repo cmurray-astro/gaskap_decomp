@@ -1,9 +1,4 @@
-# @Author: riener
-# @Date:   2019-04-02T17:42:46+02:00
-# @Filename: decompose--grs.py
-# @Last modified by:   riener
-# @Last modified time: 2019-04-08T10:33:48+02:00
-
+# Modified by Claire Murray based on decompose--grs.py by Manuel Riener
 
 import os, glob
 
